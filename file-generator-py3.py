@@ -1,6 +1,5 @@
-# Python version 2
-# This is not good code, still it works.
-# How to use: Create a file called namelist.txt and write down the name of the text file you want to create in every new line. Place this script and the namelist file in the folder where you want to create your files, and run it. It will create all the new files in that folder. It automatically removes all the characters that might cause an error.
+# Python3 version
+# How to use: Create a text file, and write down the name of the file you want to create in every new line. Place this script and the name list file in the folder where you want to create your files, and run it. It will create all the new files in that folder. It automatically removes all the characters that might cause an error.
 import sys
 
 
