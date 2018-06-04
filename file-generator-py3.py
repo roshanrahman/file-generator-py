@@ -53,7 +53,7 @@ elif len(sys.argv) == 2 and ('.' in sys.argv[1]):
         j = j + 1
 
     for e in cleanlist:
-        open(str(e.translate(None, '/\:*?"<?|')), "w+")
+        open(str(e.translate(None, r'/\:*?"<?|')), "w+")
     print(str(len(cleanlist)) + " files created.")
     if not len(filelist) - len(cleanlist) == 0:
         print(str(len(filelist) - len(cleanlist)) + " list entries ignored due to duplicates or missing extension.")
